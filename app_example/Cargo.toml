@@ -1,0 +1,12 @@
+[package]
+name = "app_example"
+version = "0.1.0"
+authors = ["Yuki Toyoda <toyoda_yuki@cyberagent.co.jp>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+macros = { path = "../macros" }
+redis = "0.12"
+r2d2_redis = "0.11.0"
